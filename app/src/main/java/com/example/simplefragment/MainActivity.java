@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
     private static final String TAG = "MainActivityTAG_";
     private Button Btn1;
     private Button Btn2;
-    private FrameLayout Frame1;
+    private FrameLayout Frame;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         Btn1 = (Button) findViewById(R.id.button1);
         Btn2 = (Button) findViewById(R.id.button2);
 
-        FrameLayout Frame1 = (FrameLayout) findViewById(R.id.frame1);
+        Frame = (FrameLayout) findViewById(R.id.frame1);
 
         FragmentManager fragmentManager = getSupportFragmentManager();
         fragmentManager
